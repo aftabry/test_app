@@ -1,0 +1,19 @@
+current directory: /home/aftab/test_app/vendor/gems/byebug-9.0.6/ext/byebug
+/home/aftab/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20170215-25714-3fj276.rb extconf.rb
+creating Makefile
+
+current directory: /home/aftab/test_app/vendor/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/aftab/test_app/vendor/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling byebug.c
+compiling breakpoint.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/aftab/test_app/vendor/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20170215-25714-1nc11rw/byebug
